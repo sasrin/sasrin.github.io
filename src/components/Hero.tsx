@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, GitHub, Linkedin } from 'lucide-react';
+import { ArrowRight, Github, Linkedin } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
               </Button>
               <Button variant="outline" asChild className="border-devops-500 text-devops-700 hover:bg-devops-50 dark:border-devops-400 dark:text-devops-300 dark:hover:bg-devops-900/30">
                 <a href="https://github.com/sasrin" target="_blank" rel="noopener noreferrer">
-                  <GitHub className="mr-2 h-4 w-4" /> GitHub
+                  <Github className="mr-2 h-4 w-4" /> GitHub
                 </a>
               </Button>
               <Button variant="outline" asChild className="border-devops-500 text-devops-700 hover:bg-devops-50 dark:border-devops-400 dark:text-devops-300 dark:hover:bg-devops-900/30">
