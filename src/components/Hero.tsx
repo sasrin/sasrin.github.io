@@ -37,15 +37,17 @@ const Hero = () => {
               </Button>
             </div>
           </div>
-          <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center animate-fade-in">
-            <div className="relative w-64 h-64 sm:w-80 sm:h-80">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-devops-500 to-devops-700 opacity-10 animate-pulse"></div>
-              <div className="absolute inset-4 rounded-full bg-gradient-to-r from-devops-400 to-devops-600 opacity-20"></div>
-              <div className="absolute inset-8 rounded-full bg-gradient-to-r from-devops-300 to-devops-500 opacity-30 flex items-center justify-center">
-                <Avatar className="h-48 w-48 border-4 border-white dark:border-gray-800 shadow-lg">
-                  <AvatarImage src="/lovable-uploads/c33c0be9-581e-45b8-8b52-7c9098224eff.png" alt="Mohammed Sasrin" />
-                  <AvatarFallback className="text-2xl">MS</AvatarFallback>
-                </Avatar>
+          <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+            <div className="relative w-64 h-64 sm:w-80 sm:h-80 group perspective-1000">
+              <div className="relative w-full h-full transition-all duration-500 transform-style-3d group-hover:rotate-y-180">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-devops-600 to-devops-400 opacity-20 animate-[spin_15s_linear_infinite]"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-devops-500 to-devops-300 opacity-10 animate-[spin_8s_linear_infinite_reverse]"></div>
+                <div className="absolute w-full h-full flex items-center justify-center">
+                  <Avatar className="h-56 w-56 border-4 border-white dark:border-gray-800 shadow-lg transition-all duration-300 transform hover:scale-105">
+                    <AvatarImage src="/lovable-uploads/7205515b-1171-4fbe-8f81-cf1fbee81410.png" alt="Mohammed Sasrin" className="object-cover" />
+                    <AvatarFallback className="text-2xl">MS</AvatarFallback>
+                  </Avatar>
+                </div>
               </div>
             </div>
           </div>
