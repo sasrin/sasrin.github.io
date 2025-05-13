@@ -38,15 +38,16 @@ const Hero = () => {
             </div>
           </div>
           <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
-            <div className="relative w-64 h-64 sm:w-80 sm:h-80 group perspective-1000">
-              <div className="relative w-full h-full transition-all duration-500 transform-style-3d group-hover:rotate-y-180">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-devops-600 to-devops-400 opacity-20 animate-[spin_15s_linear_infinite]"></div>
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-devops-500 to-devops-300 opacity-10 animate-[spin_8s_linear_infinite_reverse]"></div>
-                <div className="absolute w-full h-full flex items-center justify-center">
-                  <Avatar className="h-56 w-56 border-4 border-white dark:border-gray-800 shadow-lg transition-all duration-300 transform hover:scale-105">
-                    <AvatarImage src="/lovable-uploads/7205515b-1171-4fbe-8f81-cf1fbee81410.png" alt="Mohammed Sasrin" className="object-cover" />
+            <div className="relative w-64 h-64 sm:w-80 sm:h-80 animate-pulse-slow">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-devops-400 to-devops-200 opacity-30 animate-[pulse_6s_ease-in-out_infinite]"></div>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-bl from-devops-300 via-transparent to-devops-500 opacity-40 animate-[pulse_8s_ease-in-out_infinite]"></div>
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="relative w-56 h-56 overflow-hidden rounded-full transform transition-all duration-500 hover:scale-105 shadow-xl hover:shadow-2xl">
+                  <Avatar className="w-full h-full">
+                    <AvatarImage src="/lovable-uploads/9e21f0df-94b1-4910-9ba9-3a4e4be93264.png" alt="Mohammed Sasrin" className="object-cover" />
                     <AvatarFallback className="text-2xl">MS</AvatarFallback>
                   </Avatar>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               </div>
             </div>
