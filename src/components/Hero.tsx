@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Github, Linkedin } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Hero = () => {
   return (
@@ -41,11 +42,10 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-devops-500 to-devops-700 opacity-10 animate-pulse"></div>
               <div className="absolute inset-4 rounded-full bg-gradient-to-r from-devops-400 to-devops-600 opacity-20"></div>
               <div className="absolute inset-8 rounded-full bg-gradient-to-r from-devops-300 to-devops-500 opacity-30 flex items-center justify-center">
-                <div className="text-center p-6">
-                  <div className="text-4xl font-bold text-devops-700 dark:text-devops-300">DevOps</div>
-                  <div className="text-xl text-devops-600 dark:text-devops-400 mt-2">AWS • Docker</div>
-                  <div className="text-xl text-devops-600 dark:text-devops-400">CI/CD • Linux</div>
-                </div>
+                <Avatar className="h-48 w-48 border-4 border-white dark:border-gray-800 shadow-lg">
+                  <AvatarImage src="/lovable-uploads/c33c0be9-581e-45b8-8b52-7c9098224eff.png" alt="Mohammed Sasrin" />
+                  <AvatarFallback className="text-2xl">MS</AvatarFallback>
+                </Avatar>
               </div>
             </div>
           </div>
