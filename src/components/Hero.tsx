@@ -44,7 +44,7 @@ const Hero = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative w-56 h-56 overflow-hidden rounded-full transform transition-all duration-500 hover:scale-105 shadow-xl hover:shadow-2xl">
                   <Avatar className="w-full h-full">
-                    <AvatarImage src="/lovable-uploads/9e21f0df-94b1-4910-9ba9-3a4e4be93264.png" alt="Mohammed Sasrin" className="object-cover" />
+                    <AvatarImage src="/lovable-uploads/1689d6fb-04d7-4476-ae18-3631dab1c64d.png" alt="Mohammed Sasrin" className="object-cover" />
                     <AvatarFallback className="text-2xl">MS</AvatarFallback>
                   </Avatar>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
