@@ -17,28 +17,16 @@ interface Project {
 const Projects = () => {
   const projects: Project[] = [
     {
-      title: 'AWS Infrastructure Automation',
-      description: 'Automated AWS infrastructure deployment using Terraform and CloudFormation to provision scalable and secure environments for web applications.',
-      technologies: ['AWS', 'Terraform', 'CloudFormation', 'Bash'],
-      github: 'https://github.com/sasrin'
+      title: 'My Node App',
+      description: 'Node.js application containerized using Docker and deployed to GCP Cloud Run with automated GitHub Actions pipeline.',
+      technologies: ['Node.js', 'Docker', 'GCP Cloud Run', 'GitHub Actions'],
+      github: 'https://github.com/sasrin/my-node-app'
     },
     {
-      title: 'CI/CD Pipeline with GitHub Actions',
-      description: 'Implemented a complete CI/CD pipeline using GitHub Actions for automatic testing, building, and deployment of containerized applications.',
-      technologies: ['GitHub Actions', 'Docker', 'Node.js', 'AWS ECR'],
-      github: 'https://github.com/sasrin'
-    },
-    {
-      title: 'Containerized Development Environments',
-      description: 'Created standardized development environments using Docker to ensure consistency across development, testing, and production stages.',
-      technologies: ['Docker', 'Docker Compose', 'Python', 'Node.js'],
-      github: 'https://github.com/sasrin'
-    },
-    {
-      title: 'Monitoring & Logging System',
-      description: 'Designed and implemented a comprehensive monitoring and logging system for distributed applications using open-source tools.',
-      technologies: ['Prometheus', 'Grafana', 'ELK Stack', 'AWS CloudWatch'],
-      github: 'https://github.com/sasrin'
+      title: 'React App Deployment',
+      description: 'React frontend deployed to GCP Cloud Run with CI/CD using GitHub Actions. Fully automated deployment pipeline.',
+      technologies: ['React', 'Docker', 'GitHub Actions', 'GCP Cloud Run'],
+      github: 'https://github.com/sasrin/react-deploy-app'
     },
   ];
 
